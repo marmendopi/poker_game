@@ -1,3 +1,4 @@
+import random
 class PlayingCard:
     SUITS = ['♥', '♦', '♣', '♠']
     RANKS = ["2", "3", "4", "5", "6", "7", "8","9", "10", "J", "Q", "K", "A"]
@@ -37,7 +38,7 @@ class Deck:
         return str(self._cards)
     def shuffle(self):
         #mix the cards in the deck
-        random_.shuffle(self._cards)
+        random.shuffle(self._cards)
 
     def deal(self):
         #take out the first card from  the deck
