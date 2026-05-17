@@ -1,4 +1,6 @@
-from deck import Deck
+from deck import Deck, PlayingCard
+
+
 class PokerHand:
     """
     class representing a poker hand
